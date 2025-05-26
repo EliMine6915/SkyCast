@@ -1,0 +1,40 @@
+.table {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.table td {
+    padding: 12px;
+    min-width: 80px;
+    border: 1px solid #eee;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.table tr:nth-child(1) td {
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+.table tr:nth-child(even) {
+    background-color: #fdfdfd;
+}
+
+@media (max-width: 768px) {
+    .table td {
+        font-size: 0.85rem;
+        padding: 8px;
+    }
+}

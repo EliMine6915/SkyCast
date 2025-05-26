@@ -1,0 +1,9 @@
+body {
+    font-family: Inter, system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: start;
+    max-height: 200px;
+    max-width: 500px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}

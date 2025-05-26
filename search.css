@@ -1,0 +1,74 @@
+.cityInput {
+    width: 300;
+    height: 300;
+}
+
+input {
+    appearance: none;
+    outline: none;
+}
+
+.search {
+    font-family: Inter, sans-serif;
+
+    height: 36px;
+    padding: 1px 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(61, 59, 53, 0.16) 0px 0px 0px 1px, rgba(61, 59, 53, 0.08) 0px 2px 5px 0px;
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(55, 53, 47);
+    caret-color: rgb(55, 53, 47);
+}
+
+.inputDiv {
+    float: left;
+    margin-right: 40px;
+}
+
+.submitDiv {
+    float: right;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.submit-button {
+    padding: 5px 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(61, 59, 53, 0.16) 0px 0px 0px 1px, rgba(61, 59, 53, 0.08) 0px 2px 5px 0px;
+    border: 0px;
+    border-radius: 6px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(55, 53, 47);
+    caret-color: rgb(55, 53, 47);
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.searchDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 100px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 15%;
+}
+
+.searchDiv h1 {
+    margin-bottom: 20px;
+}
+
+.searchDiv h2 {
+    color: red;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
