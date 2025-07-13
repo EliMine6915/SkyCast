@@ -91,11 +91,6 @@ input {
     font-size: medium;
 }
 
-.content {
-    margin-bottom: 15%;
-    overflow: hidden;
-}
-
 .searchBtn {
     position: absolute;
     left: 51%;
